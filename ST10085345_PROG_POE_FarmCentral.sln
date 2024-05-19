@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST10085345_PROG_POE_FarmCentral", "ST10085345_PROG_POE_FarmCentral\ST10085345_PROG_POE_FarmCentral.csproj", "{23900D53-E9C4-40FE-AD42-26D67A808B12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ST10085345_PROG_POE_FarmCentral", "ST10085345_PROG_POE_FarmCentral\ST10085345_PROG_POE_FarmCentral.csproj", "{23900D53-E9C4-40FE-AD42-26D67A808B12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

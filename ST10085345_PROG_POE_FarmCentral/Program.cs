@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using ST10085345_PROG_POE_FarmCentral.Areas.Identity;
 using ST10085345_PROG_POE_FarmCentral.Data;
+using ST10085345_PROG_POE_FarmCentral.Models;
 
 namespace ST10085345_PROG_POE_FarmCentral
 {
@@ -23,6 +24,7 @@ namespace ST10085345_PROG_POE_FarmCentral
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddRazorPages();
+            builder.Services.AddDbContext<MyDbContext>();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 
